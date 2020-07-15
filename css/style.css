@@ -154,5 +154,45 @@ input[name="r"]{
 }
 
 .individual__text p {
-  font-size: 20px;
+    font-size: 20px;
+    max-width: 700px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.individual__photo {
+    justify-content: space-between;
+    padding: 15px 83px;
+}
+
+.item img {
+    max-width: 250px;
+}
+
+.wholesale__h3 p {
+    text-align: center;
+    margin: 15px auto;
+    font-size: 23px;
+    font-weight: 400; 
+}
+
+.wholesale__text {
+    font-size: 20px;
+    max-width: 700px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.delivery__h3 p {
+    text-align: center;
+    margin: 15px auto;
+    font-size: 23px;
+    font-weight: 400; 
+}
+
+.delivery_text {
+    font-size: 20px;
+    max-width: 700px;
+    text-align: justify;
+    margin: 0 auto;
 }
